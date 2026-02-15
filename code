@@ -7,5 +7,5 @@ void setup() {
 void loop() {
   int value = analogRead(mqPin);
   Serial.println(value);
-  delay(1200);
+  delay(9200);
 }
