@@ -1,0 +1,11 @@
+int mqPin = A0;
+
+void setup() {
+  Serial.begin(9600);
+}
+
+void loop() {
+  int value = analogRead(mqPin);
+  Serial.println(value);
+  delay(1000);
+}
